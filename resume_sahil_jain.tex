@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{verbatim}  % to use comment line \begin{comment} \end{comment}
+\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.0in]{geometry} % Document margins
+\usepackage{hyperref} % For Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=cyan,      
+    urlcolor=blue
+}
+\urlstyle{same}
+
+\renewcommand{\baselinestretch}{1.0}
+\name{Sahil Jain} % Your name
+\address{700 Health Sciences Drive, Chapin C 1044B, Stony Brook, New York 11790} % Your address
+\address{
+(631)~$\cdot$~542~$\cdot$~3812 \\
+\href{mailto:sahjain@cs.stonybrook.edu}{sahjain@cs.stonybrook.edu}\\       
+\href{http://www.linkedin.com/in/sahil2441}{www.linkedin.com/in/sahil2441}\\  
+\href{http://www.github.com/sahil2441}{www.github.com/sahil2441}
+} 
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}
+{Stony Brook University $\bullet$ New York, U.S.A.} {\emph{Fall 2015 -- May 2017 (Expected)} }
+{Master of Science, Computer Science } {} 
+Courses: Analysis of Algorithms, Operating Systems, Computing with Logic, Compiler Design
+\end{rSubsection}
+
+\begin{rSubsection}
+{Indian Institute of Technology, Roorkee $\bullet$ Roorkee, India} {\emph{Fall 2009 -- May 2014}}{Integrated Master of Science, Applied Mathematics} {} 
+\item[] 
+{{Thesis: \href{http://sci-edit.net/journal/index.php/cgt/article/download/40/35}{Fama French Three Factor Model in Indian Stock Market} }}  \\
+%{{Research Publication: \href{http://www.iosrjournals.org/iosr-jbm/papers/vol2-issue1/A0210104.pdf?id=5531}{Analysis of Equity Based Mutual Funds in India} }} \\
+Courses: Computer Systems and Programming, Database Management, Data Structures, Graph Theory, Number Theory, Discrete Mathematics.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Relevant Courses Taken}
+
+%Analysis of Algorithms, Operating Systems, Computing with Logic, Fundamentals of Data Science, and Modeling and Simulation.
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Java, C/C++, Python, Prolog
+ \\
+Databases & MySQL, Oracle 
+\\
+Tools & SVN, Git, Android Studio, Eclipse, Gradle, JDeveloper, Matlab, R
+ \\
+Technologies & JSP, Servlets, JDBC,  Eclipse, ADF, WebLogic, Tomcat, JIRA.
+%\\
+%Operating Systems & Linux, Mac OS X, Windows
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Oracle Financial Services Software} {\emph{Sept. 2014 -- June 2015}} {Applications Developer}
+{Mumbai, India}
+
+\item Designed and Developed a new Account opening feature for Oracle Banking Platform -- a Banking Solution.
+\item Extended the Warning Indicators ADF Task flow, by making relevant changes at frontend and back end.
+\item Revamped the Transacting Party Details ADF Taskflow that helps prevent money laundering.
+\item Redesigned Counter Party Maintenance Task flow, to help prevent money laundering in financial transactions. \\
+Tools: Java, Jdeveloper, ADF, JSFF, Servlets, JSP, WebLogic, Tomcat, JDBC, Eclipselink, Service Oriented Architecture,JIRA.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Trip Tracker -- Android App}{\emph{ Jan. 2015 -- August 2015}}{Founder, Developer}{Mumbai, India}
+\item Developed an Android Application {\emph{Trip Tracker}}  for Mobile platform that tracks user's  location and notifies friends based on location coordinates. \\
+Technologies Used: Java, XML, Android Studio, FAB, Crashlytics, UML, JSON, Google Maps API, Google Cloud Messaging (GCM), Push Notifications, Facebook Authentication API, Parse API. \\
+\href{https://github.com/sahil2441/Trip-Tracker}{GitHub Link}
+{\tiny$\bullet$}
+\href{https://play.google.com/store/apps/details?id=me.sahiljain.tripTracker}{Play Store Link}
+\end{rSubsection}
+
+%------------------------------------------------ COMMENTED----------
+
+\begin{comment}
+\end{Huge}
+
+\begin{rSubsection}{ASA \& Associates} {\emph{Summer 2011}}{Summer Intern}{New Delhi, India}
+\item Performed an audit on Hewlett Packard's financial transactions to analyze cash flow and loss incurred in its transactions.
+Tools: Excel, R.
+\end{rSubsection}
+
+\end{comment}
+%------------------------------------------------ COMMENTED----------
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Projects SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects {$\bullet$} \emph{\href{http://www.github.com/sahil2441}{\footnotesize Github Handle(sahil2441)}}}
+
+\begin{rSubsection}{Nachos Operating System {\tiny$\bullet$} \emph{Stony Brook University}} {\emph {Aug. 2015 -- Dec. 2015}}{}{}
+\item Implemented various system calls such as sleep(), exec(), join(), fork(), read(), write() and exit().
+\item Also Implemented semaphores, thread scheduling and process management routines, extending
+     the functionality to handle Multi-threading and User Programming.
+\item Extended Nachos OS to implement Round Robin Scheduling, Multi Feedback Scheduling.
+\item Built a Console Driver for Nachos.
+\item Extended the functionality of the Nachos File system, implementing File Extension, Directory Structure,  Single and 
+      Double Indirect Blocks.
+\item Extended Nachos to support demand paged, memory mapped files by adding two new system calls- Mmap() and
+      Munmap().Tools Used: C, Java, Eclipse IDE, Linux. {\tiny$\bullet$}     
+\href{https://github.com/sahil2441/Nachos-Operating-System}{GitHub Link}
+
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Projects in Prolog {\tiny$\bullet$} \emph{Stony Brook University}}{\emph{Aug. 2015 -- Dec. 2015}}{}{}
+\item Performed Resolution operations and Herbrand Models in XSB, SWIPL variant of Prolog. Tools: XSB, Swi-Pl, Prolog Development Tools.
+\href{https://github.com/sahil2441/Prolog-Problems}{GitHub Link}
+{\tiny$\bullet$}
+\href{http://stackoverflow.com/users/2733964/sahil-jain}{Stackoverflow Link}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Yelp Reviews Based Data Analysis {\tiny$\bullet$} \emph{Stony Brook University}}{\emph{Aug. 2015 -- Dec. 2015}}{}{}
+\item Conducted an analysis on 1.6 M yelp review that included Sentiment Analysis, Correlation plots, Calendar
+      and World Heat maps.  Tools: MySQL, Tableau, Stata, Excel, Matlab, Java. 
+\href{https://drive.google.com/file/d/0BzgUxxyAUxkycTZsY0pUUXY0NmM/view?usp=sharing}{Project Report}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{NYC Open Data Analysis {\tiny$\bullet$} \emph{Stony Brook University}}{\emph{Aug. 2015 -- Dec. 2015} }{}{}
+\item Performed Chi Squared test, Hypothesis tests, Multiple Regression analysis on data sets from NYC Open
+      Data. Tools: MySQL, Stata, Excel, Matlab, Java.
+     \href{https://drive.google.com/file/d/0BzgUxxyAUxkyZTRlVE9xZVR6NDg/view?usp=sharing}{Project Report}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Capital Asset Pricing Model in Indian Context{\tiny$\bullet$} \emph{IIT Roorkee}}{Spring 2012}{}{}
+\item Implemented the CAPM model in the mutual fund Industry of India and showed that private sector companies have performed better than the
+public sector ones. \emph{Tools: R,Stata, Excel.} 
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
