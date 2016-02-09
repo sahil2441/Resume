@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JAN 2016 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 FEB 2016 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,25 +297,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 46.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 
 (./resume_sahil_jain.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `resume_sahil_jain.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 5390 strings out of 493089
- 80144 string characters out of 6134842
- 176565 words of memory out of 5000000
- 8864 multiletter control sequences out of 15000+600000
- 5927 words of font info for 21 fonts, out of 8000000 for 9000
+ 5388 strings out of 493089
+ 80125 string characters out of 6134842
+ 175565 words of memory out of 5000000
+ 8863 multiletter control sequences out of 15000+600000
+ 5618 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,6n,25p,260b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -325,7 +325,7 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_sahil_jain.pdf (1 page, 102013 bytes).
+Output written on resume_sahil_jain.pdf (1 page, 99112 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
