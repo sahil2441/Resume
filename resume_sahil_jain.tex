@@ -52,10 +52,10 @@
 \begin{rSection}{Education}
 
 \begin{rSubsection}
-{Stony Brook University $\bullet$ New York, U.S.A.} {\emph{Fall 2015 -- Dec 2016 (Expected)} }
+{Stony Brook University $\bullet$ New York, U.S.A.} {\emph{Fall 2015 -- Dec 2016} }
 {Master of Science, Computer Science } {} 
 Courses: Analysis of Algorithms, Operating Systems, Computing with Logic, Compiler Design, Fundamentals of Computer Networks, Fundamentals of 
-Data Science, Modelling and Simulation
+Data Science, Modelling and Simulation.
 \end{rSubsection}
 
 \begin{rSubsection}
@@ -78,6 +78,8 @@ Courses: Computer Systems and Programming, Database Management, Data Structures,
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Programming Languages & Java, C/C++, Python, Prolog
  \\
+ Google Technologies & Google App Engine, Tradefed, Bigtable, Protocol Buffer
+ \\
 Databases & MySQL, Oracle 
 \\
 Tools & SVN, Git, Android Studio, Eclipse, Gradle, JDeveloper, Matlab, R
@@ -94,24 +96,36 @@ Technologies & JSP, Servlets, JDBC,  Eclipse, ADF, WebLogic, Tomcat, JIRA.
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Oracle Financial Services Software} {\emph{Sept. 2014 -- June 2015}} {Applications Developer}
-{Mumbai, India}
+%------------------------------------------------
 
-\item Designed and Developed a new Account opening feature for Oracle Banking Platform -- a next generation Banking Solution.
-\item Redesigned several Oracle ADF Task flow, to help prevent money laundering in financial transactions by making relevant changes at frontend and back end.
-Tools: Java, Jdeveloper, ADF, JSFF, Servlets, JSP, WebLogic, Tomcat, JDBC, Eclipselink, Service Oriented Architecture,JIRA.
-
+\begin{rSubsection}{Google Inc.}{\emph{ May. 2016 -- August 2016}}{Software Engineer, Tools and Infrastructure Intern}{Mountain View, CA}
+\item Working with Android's Vendor Test Suite (VTS) team to achieve the mission : `Next Billion Users'.
+\item Developed a Host-Driven Test Type (TradeFed, Java) , Result Parser (TradeFed, Java) and a Callable Handler Server (Python).
+\item Developed a Dashboard for Android O that integrates the above Framework using Google App Engine, Protocol Buffer and Bigtable, leading to increase in performance and security.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Trip Tracker -- Android App}{\emph{ Jan. 2015 -- August 2015}}{Founder, Developer}{Mumbai, India}
-\item Developed an Android Application {\emph{Trip Tracker}}  for Mobile platform that tracks user's  location and notifies friends based on location coordinates. \\
-Technologies Used: Java, XML, Android Studio, FAB, Crashlytics, UML, JSON, Google Maps API, Google Cloud Messaging (GCM), Push Notifications, Facebook Authentication API, Parse API. \\
+\item Developed an Android Application {\emph{Trip Tracker}} that tracks user's  location and notifies friends based on location coordinates. 
+Technologies Used: Java, Android Studio, Google Maps API, Google Cloud Messaging (GCM), Facebook Authentication API. \\
 \href{https://github.com/sahil2441/Trip-Tracker}{GitHub Link}
 {\tiny$\bullet$}
 \href{https://play.google.com/store/apps/details?id=me.sahiljain.tripTracker}{Play Store Link}
 \end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Oracle Financial Services Software} {\emph{Sept. 2014 -- June 2015}} {Applications Developer}
+{Mumbai, India}
+
+\item Developed a series of Taskflows and APIs for Oracle Banking Platform -- a next generation Banking Solution, leading to an increased security in the product.\\
+Technologies and Languages: Java, Jdeveloper, ADF, JSFF, Servlets, JSP, WebLogic, Tomcat, JDBC, \\
+Eclipselink, Service Oriented Architecture, JIRA.
+
+\end{rSubsection}
+
+%------------------------------------------------
 
 \end{rSection}
 
@@ -120,72 +134,83 @@ Technologies Used: Java, XML, Android Studio, FAB, Crashlytics, UML, JSON, Googl
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Projects {$\bullet$} \emph{\href{http://www.github.com/sahil2441}{\footnotesize Github Handle(sahil2441)}}}
 
-%----------------------------------------------------------------------------------------
-% Compiler
-%----------------------------------------------------------------------------------------
-
-\begin{rSubsection}{Compiler for C type language} {\emph {Jan. 2016 -- Present}}{}{}
-\item Designed and build a copiler in Python for C language that includes different phases of compiler design, such as  
-Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Code generation, Code Optimizations, and Final Machine Code Generation.
-{\tiny$\bullet$} Tools Used: Python, PyCharm. 
-\end{rSubsection}
-
-%----------------------------------------------------------------------------------------
-% DNS
-%----------------------------------------------------------------------------------------
-
-\begin{rSubsection}{Domain Name Server Resolver} {\emph {Jan. 2016 -- Present}}{}{}
-\item Implemented a DNS Resolver in Java that resolves DNS query to provide IP address.
-\item Used Round Robin Scheduling Algorithm to choose which root server to access. Tools Used: C, Java, Eclipse IDE, Linux. {\tiny$\bullet$}     
-\href{https://github.com/sahil2441/Nachos-Operating-System}{GitHub Link}
-\end{rSubsection}
 
 %----------------------------------------------------------------------------------------
 % Nachos OS
 %----------------------------------------------------------------------------------------
 
 \begin{rSubsection}{Nachos Operating System} {\emph {Aug. 2015 -- Dec. 2015}}{}{}
-\item Extended Nachos OS to implement system calls, synchronisation primitives, thread scheduling algorithms.
-\item Also implemented implementing File Extension, Directory Structure, Single and Double Indirect Block and 
-extended Nachos to support demand paged, memory mapped files by adding two new system calls- Mmap() and Munmap().
-Tools Used: C, Java, Eclipse IDE, Linux. {\tiny$\bullet$}     
+\item Extended Nachos OS to implement System Calls, Synchronisation Primitives and Scheduling Algorithms.
+\item Improved File System by implementing File Extension, Directory Structure, Single and Double Indirect Block.
+\item Extended Nachos to support Demand Paged, Memory Mapped Files by adding new System Calls : Mmap() and Munmap().
+{\tiny$\bullet$}
 \href{https://github.com/sahil2441/Nachos-Operating-System}{GitHub Link}
 \end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+% Mininet
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Network Topology using Mininet}{\emph{March 2016 - April 2016}}{}{}
+\item Implemented Custom Network Topology using Mininet and Quagga to set up Static Network Routes. \\
+\href{https://github.com/sahil2441/FCN-Projects}{GitHub Link}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+% DNS - FCN
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Domain Name Server Resolver} {\emph {Jan. 2016 - Feb. 2016}}{}{}
+\item Implemented a DNS Resolver in Java that resolves DNS query to provide IP address.
+\item Used Round Robin Scheduling Algorithm to choose which root server to access. {\tiny$\bullet$}     
+\href{https://github.com/sahil2441/FCN-Projects}{GitHub Link}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+% Compiler
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Compiler for Java type language} {\emph {Feb. 2016 -- May 2016}}{}{}
+\item Designed and build a compiler in Python for Java type language that includes different phases of compiler design, such as  
+Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Code generation, Code Optimizations, and Final Machine Code Generation.
+{\tiny$\bullet$}
+\href{https://github.com/sahil2441/Compiler}{GitHub Link} 
+\end{rSubsection}
+
 
 %----------------------------------------------------------------------------------------
 % Prolog
 %----------------------------------------------------------------------------------------
 
-\begin{rSubsection}{Projects in Prolog }{\emph{Aug. 2015 -- Dec. 2015}}{}{}
-\item Performed Resolution operations and Herbrand Models in XSB, SWIPL variant of Prolog. Tools: XSB, Swi-Pl, Prolog Development Tools.
-\href{https://github.com/sahil2441/Prolog-Problems}{GitHub Link}
-{\tiny$\bullet$}
-\href{http://stackoverflow.com/users/2733964/sahil-jain}{Stackoverflow Link}
-\end{rSubsection}
+%\begin{rSubsection}{Projects in Prolog }{\emph{Aug. 2015 -- Dec. 2015}}{}{}
+%\item Performed Resolution operations and Herbrand Models in XSB, SWIPL variant of Prolog. Tools: XSB, Swi-Pl, Prolog Development Tools.
+%\href{https://github.com/sahil2441/Prolog-Problems}{GitHub Link}
+%{\tiny$\bullet$}
+%\href{http://stackoverflow.com/users/2733964/sahil-jain}{Stackoverflow Link}
+%\end{rSubsection}
 
 %----------------------------------------------------------------------------------------
 % Yelp
 %----------------------------------------------------------------------------------------
 
-\begin{rSubsection}{Yelp Reviews Based Data Analysis }{\emph{Aug. 2015 -- Dec. 2015}}{}{}
-\item Conducted an analysis on 1.6 M yelp review that included Sentiment Analysis, Correlation plots, Calendar
-      and World Heat maps.  Tools: MySQL, Tableau, Stata, Excel, Matlab, Java. 
-\href{https://drive.google.com/file/d/0BzgUxxyAUxkycTZsY0pUUXY0NmM/view?usp=sharing}{Project Report}
-\end{rSubsection}
+%\begin{rSubsection}{Yelp Reviews Based Data Analysis }{\emph{Aug. 2015 -- Dec. 2015}}{}{}
+%\item Conducted an analysis on 1.6 M yelp review that included Sentiment Analysis, Correlation plots, Calendar
+      %and World Heat maps.  Tools: MySQL, Tableau, Stata, Excel, Matlab, Java. 
+%\href{https://drive.google.com/file/d/0BzgUxxyAUxkycTZsY0pUUXY0NmM/view?usp=sharing}{Project Report}
+%\end{rSubsection}
 
 %----------------------------------------------------------------------------------------
 % NYC Open Data
 %----------------------------------------------------------------------------------------
 
-\begin{rSubsection}{NYC Open Data Analysis  }{\emph{Aug. 2015 -- Dec. 2015} }{}{}
-\item Performed Chi Squared test, Hypothesis tests, Multiple Regression analysis on data sets from NYC Open
-      Data. Tools: MySQL, Stata, Excel, Matlab, Java.
-     \href{https://drive.google.com/file/d/0BzgUxxyAUxkyZTRlVE9xZVR6NDg/view?usp=sharing}{Project Report}
-\end{rSubsection}
+%\begin{rSubsection}{NYC Open Data Analysis  }{\emph{Aug. 2015 -- Dec. 2015} }{}{}
+%\item Performed Chi Squared test, Hypothesis tests, Multiple Regression analysis on data sets from NYC Open
+%      Data. Tools: MySQL, Stata, Excel, Matlab, Java.
+%     \href{https://drive.google.com/file/d/0BzgUxxyAUxkyZTRlVE9xZVR6NDg/view?usp=sharing}{Project Report}
+%\end{rSubsection}
 %----------------------------------------------------------------------------------------
 
+
 \end{rSection}
-
-
 
 \end{document}

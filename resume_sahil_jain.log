@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2016 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2016 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,18 +297,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 46.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 46.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
 
 (./resume_sahil_jain.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package rerunfilecheck Info: File `resume_sahil_jain.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
  5388 strings out of 493089
@@ -325,10 +325,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_sahil_jain.pdf (1 page, 99261 bytes).
+Output written on resume_sahil_jain.pdf (1 page, 98940 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
